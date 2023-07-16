@@ -1,0 +1,14 @@
+
+Whisper voice to txt
+
+coqui TTS
+
+Oobabooga LLM & OpenAI / built or even built in Auto GPTQ
+
+Emotions auto change based on classifcations
+	(image and/or presets)
+
+Auto Image maker for emotions
+
+Menu options
+Fullscreen option

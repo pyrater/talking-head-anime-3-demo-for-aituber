@@ -1,0 +1,12 @@
+add
+
+	if (1 == 1) {
+	// Find the <img> element with id="expression-image" and class="expression"
+	const imgElement = document.querySelector('img#expression-image.expression');
+	console.log("searching");
+	if (imgElement) {
+		console.log("setting value");
+		imgElement.src = 'http://127.0.0.1:5555/result_feed';
+	}}
+	
+	to line 672 of C:\AI_Tools\SillyTavern\public\scripts\extensions\expressions\index.js

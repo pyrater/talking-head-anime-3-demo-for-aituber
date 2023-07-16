@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jovlabs.com AI WIP</title>
+  <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+  <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+  <link href="{{ url_for('static', filename='css/chat.css') }}" rel="stylesheet">
+  
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      width: 33%;
+      text-align: center;
+    }
+    
+    .container div {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container py-5">
+  <h2><font color="white">Settings</h2>
+  <div>
+    <label for="globalSourceImage" class="form-label">Global Result Image</label>
+    <img id="globalSourceImageDisplay" src="{{ url_for('source_feed') }}" alt="Global Source Image" style="width: 100%; max-width: 400px;">
+    <input type="file" class="form-control" id="globalSourceImage" name="global_source_image">
+  </div>
+  <div>
+    <label for="globalResultImage" class="form-label">Global Result Image</label>
+    <img id="globalResultImageDisplay" src="{{ url_for('result_feed') }}" alt="Global Result Image" style="width: 100%; max-width: 400px;">
+    <input type="file" class="form-control" id="globalResultImage" name="global_result_image">
+  </div>
+  <div>
+    <button type="submit" class="btn btn-primary">Save</button>
+  </div>
+</div>
+
+</body>
+
+</html>
