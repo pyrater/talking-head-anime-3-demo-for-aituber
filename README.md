@@ -1,7 +1,6 @@
 # Talking Head Anime 3 Demo For AITuber
 
 !!!!!MODIFICATIONS INCLUDE:
-- outputs to
 - localhost:5555
 - localhost:5555/settings.html
 - localhost:5555/result_feed
