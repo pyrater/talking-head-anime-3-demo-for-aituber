@@ -1,5 +1,15 @@
 # Talking Head Anime 3 Demo For AITuber
 
+!!!!!MODIFICATIONS INCLUDE:
+- outputs to
+- localhost:5555
+- localhost:5555/settings.html
+- localhost:5555/result_feed
+- Hidden gui
+- Added sliders to control body to gui (hidden by default)
+- updated audio input / output to work for me orginal didnt work.
+
+
 ![foraituber](https://github.com/miketako3/talking-head-anime-3-demo-for-aituber/assets/28917343/0009fc94-0bb6-4615-a6b8-1aab66fd3598)
 
 This repository is a system adaptation of Talking Head Anime 3 Demo for AITuber.
